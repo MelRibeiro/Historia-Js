@@ -1,0 +1,58 @@
+:root {
+    --orange-peel: #FF9F1C;
+    --light-orange: #FFBF69;
+    --white: #FFFFFF;
+    --light-cyan: #CBF3F0;
+    --tifany-blue: #2EC4B6;
+}
+
+* {
+    font-size: 1.2rem;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.java_script {
+    height: 25rem;
+    width: 25rem;
+}
+
+
+.quem-somos{
+    background-color: var(--light-orange);
+}
+
+
+.padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1, h3, h5 {
+    margin: 20px;
+}
+
+#parceiros {
+    background-color: var(--white);
+}
+
+.row img {
+    width: 200px;
+    height: 200px;
+}
+
+#referencias {
+    background-color: var(--light-cyan);
+}
+
+#referencias .container a {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: var(--tifany-blue);
+}
